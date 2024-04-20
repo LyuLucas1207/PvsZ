@@ -1,0 +1,3 @@
+D:/CodeProJect/PvsZ/cmake-build-debug/CMakeFiles/PvsZ.dir
+D:/CodeProJect/PvsZ/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CodeProJect/PvsZ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
