@@ -75,7 +75,7 @@ void Loading::gameInit() {
         if (!transitionCompleted) {
             int alpha = transition.getColor().a;
             if (alpha > 0) {
-                alpha -= 1;
+                alpha -= 5;
                 transition.setColor(sf::Color(255, 255, 255, alpha));
                 window.draw(transition); // 绘制过渡图片
             } else {

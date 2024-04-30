@@ -1,12 +1,18 @@
 # ninja log v5
-4	803	7361422446593150	CMakeFiles/PvsZ.dir/src/main.cpp.obj	8a65d44591f1b059
+17	83	7361444110843316	CMakeFiles/PvsZ.dir/src/Menu.cpp.obj	ee7842ffd83a2174
 169	2867	7361345198509674	CMakeFiles/PvsZ.dir/src/Game.cpp.obj	cf4918dff4808ba8
-7	865	7352684930833194	CMakeFiles/PvsZ.dir/src/Menu.cpp.obj	25a33575c9fd3625
-879	987	7361426387823133	PvsZ.exe	c0f0ceb483a63602
+4	1327	7361444123283307	CMakeFiles/PvsZ.dir/src/main.cpp.obj	6e49ff25ca0368df
+942	1047	7361444581862260	PvsZ.exe	5e85b32f32686bee
+23	856	7361439185371215	CMakeFiles/PvsZ.dir/src/gamelogic.cpp.obj	879f244fe4996d42
+14	82	7361444110833299	CMakeFiles/PvsZ.dir/scenes/Scenes.cpp.obj	4f7af2fed3e0e4c1
+2	202	7361446045331301	build.ninja	e2d3a4e29333d7d0
 10	49	7352620798635373	CMakeFiles/PvsZ.dir/src/Zombie.cpp.obj	36e66f06ea5bfc93
-2	196	7361436381184732	build.ninja	e2d3a4e29333d7d0
 8	48	7352620798635373	CMakeFiles/PvsZ.dir/src/Plant.cpp.obj	3d8fc3d6b0d7f9f1
 11	62	7361398583576638	CMakeFiles/PvsZ.dir/src/Scenes.cpp.obj	f4f121e1d5e13faf
 15	63	7361398583576638	CMakeFiles/PvsZ.dir/src/InitLoading.cpp.obj	7cb581006e442585
-4	879	7361426386781761	CMakeFiles/PvsZ.dir/src/Loading.cpp.obj	697725ba0a848e63
-8	846	7361426386451763	CMakeFiles/PvsZ.dir/baseclass/Initialization.cpp.obj	4c96660917c2f111
+4	941	7361444580822271	CMakeFiles/PvsZ.dir/src/Loading.cpp.obj	a8df1de80c46e63
+20	1323	7361444123243299	CMakeFiles/PvsZ.dir/baseclass/Initialization.cpp.obj	5f12e6edd300510d
+8	79	7361444110793278	CMakeFiles/PvsZ.dir/plants/Plant.cpp.obj	9bc6ebd4428889fc
+11	81	7361444110803296	CMakeFiles/PvsZ.dir/zombies/Zombie.cpp.obj	7dd20ac990a0f4a
+8	45	7361441022658157	CMakeFiles/PvsZ.dir/gamelogic/GameLogic.cpp.obj	81e2d6979350ea1
+24	89	7361444110903279	CMakeFiles/PvsZ.dir/logic/GameLogic.cpp.obj	3deee03074fc9c47
