@@ -5,12 +5,18 @@ set(CMAKE_CXX_STANDARD 20)
 
 # 可执行文件和源文件
 add_executable(PvsZ src/main.cpp
-        includes/Game.h
-        includes/Plants.h
-        includes/Zombies.h
-        src/Game.cpp
-        src/Plant.cpp
-        src/Zombie.cpp
+        includes/Loading.h
+        plants/Plants.h
+        zombies/Zombies.h
+        src/Loading.cpp
+        plants/Plant.cpp
+        zombies/Zombie.cpp
+        scenes/Scenes.h
+        scenes/Scenes.cpp
+        src/Menu.cpp
+        includes/Menu.h
+        baseclass/Initialization.cpp
+        baseclass/Initialization.h
 )
 
 # 包含目录

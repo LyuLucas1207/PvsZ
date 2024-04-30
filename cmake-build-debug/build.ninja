@@ -56,26 +56,47 @@ build CMakeFiles/PvsZ.dir/src/main.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\src
 
-build CMakeFiles/PvsZ.dir/src/Game.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/src/Game.cpp || cmake_object_order_depends_target_PvsZ
-  DEP_FILE = CMakeFiles\PvsZ.dir\src\Game.cpp.obj.d
+build CMakeFiles/PvsZ.dir/src/Loading.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/src/Loading.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\src\Loading.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -isystem D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\src
 
-build CMakeFiles/PvsZ.dir/src/Plant.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/src/Plant.cpp || cmake_object_order_depends_target_PvsZ
-  DEP_FILE = CMakeFiles\PvsZ.dir\src\Plant.cpp.obj.d
+build CMakeFiles/PvsZ.dir/plants/Plant.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/plants/Plant.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\plants\Plant.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  OBJECT_DIR = CMakeFiles\PvsZ.dir
+  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\plants
+
+build CMakeFiles/PvsZ.dir/zombies/Zombie.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/zombies/Zombie.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\zombies\Zombie.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  OBJECT_DIR = CMakeFiles\PvsZ.dir
+  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\zombies
+
+build CMakeFiles/PvsZ.dir/scenes/Scenes.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/scenes/Scenes.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\scenes\Scenes.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  OBJECT_DIR = CMakeFiles\PvsZ.dir
+  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\scenes
+
+build CMakeFiles/PvsZ.dir/src/Menu.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/src/Menu.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\src\Menu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -isystem D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\src
 
-build CMakeFiles/PvsZ.dir/src/Zombie.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/src/Zombie.cpp || cmake_object_order_depends_target_PvsZ
-  DEP_FILE = CMakeFiles\PvsZ.dir\src\Zombie.cpp.obj.d
+build CMakeFiles/PvsZ.dir/baseclass/Initialization.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/baseclass/Initialization.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\baseclass\Initialization.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -isystem D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
-  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\baseclass
 
 
 # =============================================================================
@@ -85,7 +106,7 @@ build CMakeFiles/PvsZ.dir/src/Zombie.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug
 #############################################
 # Link the executable PvsZ.exe
 
-build PvsZ.exe: CXX_EXECUTABLE_LINKER__PvsZ_Debug CMakeFiles/PvsZ.dir/src/main.cpp.obj CMakeFiles/PvsZ.dir/src/Game.cpp.obj CMakeFiles/PvsZ.dir/src/Plant.cpp.obj CMakeFiles/PvsZ.dir/src/Zombie.cpp.obj | D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-graphics-d.a D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-window-d.a D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-audio-d.a D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-system-d.a
+build PvsZ.exe: CXX_EXECUTABLE_LINKER__PvsZ_Debug CMakeFiles/PvsZ.dir/src/main.cpp.obj CMakeFiles/PvsZ.dir/src/Loading.cpp.obj CMakeFiles/PvsZ.dir/plants/Plant.cpp.obj CMakeFiles/PvsZ.dir/zombies/Zombie.cpp.obj CMakeFiles/PvsZ.dir/scenes/Scenes.cpp.obj CMakeFiles/PvsZ.dir/src/Menu.cpp.obj CMakeFiles/PvsZ.dir/baseclass/Initialization.cpp.obj | D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-graphics-d.a D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-window-d.a D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-audio-d.a D$:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-system-d.a
   FLAGS = -g
   LINK_LIBRARIES = D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-graphics-d.a  D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-window-d.a  D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-audio-d.a  D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PvsZ.dir
