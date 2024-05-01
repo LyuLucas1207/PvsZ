@@ -36,7 +36,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 38,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -48,7 +48,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 27,
+				"line" : 29,
 				"parent" : 0
 			}
 		]
@@ -66,7 +66,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/src/includes"
+					"path" : "D:/CodeProJect/PvsZ/BasePage/includes"
 				},
 				{
 					"backtrace" : 3,
@@ -78,15 +78,15 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/scenes"
+					"path" : "D:/CodeProJect/PvsZ/BattlesScenes"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/baseclass"
+					"path" : "D:/CodeProJect/PvsZ/BasePage/BaseClass"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/logic"
+					"path" : "D:/CodeProJect/PvsZ/src/logic"
 				},
 				{
 					"backtrace" : 4,
@@ -191,7 +191,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Loading.cpp",
+			"path" : "BasePage/Loading.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -209,25 +209,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "scenes/Scenes.cpp",
+			"path" : "BattlesScenes/Scenes.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Menu.cpp",
+			"path" : "BasePage/Menu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "baseclass/Initialization.cpp",
+			"path" : "BasePage/BaseClass/Initialization.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "logic/GameLogic.cpp",
+			"path" : "src/logic/GameLogic.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

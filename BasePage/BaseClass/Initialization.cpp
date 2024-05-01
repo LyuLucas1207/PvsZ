@@ -68,3 +68,7 @@ void Initialization::setBackground(unsigned int screenWidth, unsigned int screen
     float posY = (screenHeight - spriteHeight) / 2;
     background.setPosition(posX, posY);
 }
+
+void Initialization::setTop(HWND hwnd) {
+    SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
+}

@@ -5,9 +5,11 @@
 #ifndef PVSZ_GAMELOGIC_H
 #define PVSZ_GAMELOGIC_H
 
+#include "Loading.h"
 
 class GameLogic {
-
+public:
+    void pageSwitch();
 };
 
 

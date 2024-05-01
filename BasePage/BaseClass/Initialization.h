@@ -8,6 +8,7 @@
 #include <memory>
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
+#include <Windows.h>
 
 #define DEFAULT_WIDTH 800
 #define DEFAULT_HEIGHT 600
@@ -23,6 +24,7 @@ protected:
     void loadImgTexture(const std::string& path);
     void loadMusic(const std::string& path);
     void loadIcon(const std::string& path);
+    void setTop(HWND hwnd); // 设置窗口置顶
 
     void setBackground(unsigned int screenWidth, unsigned int screenHeight, bool IsStretch = true);
 
