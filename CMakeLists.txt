@@ -26,17 +26,17 @@ target_include_directories(PvsZ PRIVATE
 include_directories(BasePage/includes)
 
 # 包含目录
-include_directories(D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include)
+include_directories(${PROJECT_SOURCE_DIR}/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include)
 
 # 库目录
-link_directories(D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib)
+link_directories(${PROJECT_SOURCE_DIR}/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib)
 
 # 链接 SFML 库
-set(SFML_DIR "D:/lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML")
+set(SFML_DIR "${PROJECT_SOURCE_DIR}/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML")
+
 find_package(SFML 2.6.1 COMPONENTS graphics window system REQUIRED)
 
 # ...
-
 target_link_libraries(PvsZ
         sfml-graphics
         sfml-window
