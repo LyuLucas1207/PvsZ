@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PvsZ::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PvsZ-Debug-882364d338bf8093533e.json",
+					"jsonFile" : "target-PvsZ-Debug-137239ccfca242ef0897.json",
 					"name" : "PvsZ",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/CodeProJect/PvsZ/cmake-build-debug",
-		"source" : "D:/CodeProJect/PvsZ"
+		"build" : "C:/CodingProject/C_C++/PvsZ/cmake-build-debug",
+		"source" : "C:/CodingProject/C_C++/PvsZ"
 	},
 	"version" : 
 	{

@@ -44,3 +44,22 @@ target_link_libraries(PvsZ
         sfml-audio
 )
 
+# 定位所有 DLL 文件
+file(GLOB SFML_DLL_FILES "${PROJECT_SOURCE_DIR}/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/bin/*.dll")
+# 在项目构建后自动复制 SFML DLL 文件到输出目录
+foreach(DLL_FILE ${SFML_DLL_FILES})
+    add_custom_command(TARGET PvsZ POST_BUILD
+            COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            ${DLL_FILE}
+            $<TARGET_FILE_DIR:PvsZ>)
+endforeach()
+
+
+# 在项目构建后自动复制特定的 SFML DLL 文件到输出目录
+#set(SPECIFIC_DLLS "a.dll" "b.dll" "c.dll" "d.dll")
+#foreach(DLL_NAME ${SPECIFIC_DLLS})
+#    add_custom_command(TARGET PvsZ POST_BUILD
+#            COMMAND ${CMAKE_COMMAND} -E copy_if_different
+#            "${PROJECT_SOURCE_DIR}/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/bin/${DLL_NAME}"
+#            $<TARGET_FILE_DIR:PvsZ>)
+#endforeach()

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PvsZ"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\extern-lib\;CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\;CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\;CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\;CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\;CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/CodingProject/C_C++/PvsZ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PvsZ">
+				<Option output="C:/CodingProject/C_C++/PvsZ/cmake-build-debug/PvsZ.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CodingProject/C_C++/PvsZ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/BasePage/includes"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/plants"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/zombies"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/BattlesScenes"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/BasePage/BaseClass"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/src/logic"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 PvsZ"/>
+					<CompileFile command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PvsZ/fast">
+				<Option output="C:/CodingProject/C_C++/PvsZ/cmake-build-debug/PvsZ.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CodingProject/C_C++/PvsZ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/BasePage/includes"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/plants"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/zombies"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/BattlesScenes"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/BasePage/BaseClass"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/src/logic"/>
+					<Add directory="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Coding_Tool/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 PvsZ/fast"/>
+					<CompileFile command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/CodingProject/C_C++/PvsZ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/CodingProject/C_C++/PvsZ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CODING~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/CodingProject/C_C++/PvsZ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/BasePage/BaseClass/Initialization.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/BasePage/BaseClass/Initialization.h">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/BasePage/Loading.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/BasePage/Menu.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/BattlesScenes/Scenes.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/BattlesScenes/Scenes.h">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/plants/Plant.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/src/logic/GameLogic.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/src/logic/GameLogic.h">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/src/main.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/zombies/Zombie.cpp">
+			<Option target="PvsZ"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\extern-lib\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\SFML-2.6.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

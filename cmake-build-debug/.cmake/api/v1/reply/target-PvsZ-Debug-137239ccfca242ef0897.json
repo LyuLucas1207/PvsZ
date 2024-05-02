@@ -66,32 +66,32 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/BasePage/includes"
+					"path" : "C:/CodingProject/C_C++/PvsZ/BasePage/includes"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/plants"
+					"path" : "C:/CodingProject/C_C++/PvsZ/plants"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/zombies"
+					"path" : "C:/CodingProject/C_C++/PvsZ/zombies"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/BattlesScenes"
+					"path" : "C:/CodingProject/C_C++/PvsZ/BattlesScenes"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/BasePage/BaseClass"
+					"path" : "C:/CodingProject/C_C++/PvsZ/BasePage/BaseClass"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/src/logic"
+					"path" : "C:/CodingProject/C_C++/PvsZ/src/logic"
 				},
 				{
 					"backtrace" : 4,
 					"isSystem" : true,
-					"path" : "D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include"
+					"path" : "C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include"
 				}
 			],
 			"language" : "CXX",
@@ -131,22 +131,22 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "D:\\CodeProJect\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-graphics-d.a",
+				"fragment" : "C:\\CodingProject\\C_C++\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-graphics-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "D:\\CodeProJect\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-window-d.a",
+				"fragment" : "C:\\CodingProject\\C_C++\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-window-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "D:\\CodeProJect\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-audio-d.a",
+				"fragment" : "C:\\CodingProject\\C_C++\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-audio-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "D:\\CodeProJect\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-system-d.a",
+				"fragment" : "C:\\CodingProject\\C_C++\\PvsZ\\extern-lib\\SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit\\SFML-2.6.1\\lib\\libsfml-system-d.a",
 				"role" : "libraries"
 			},
 			{
