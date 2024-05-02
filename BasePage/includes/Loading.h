@@ -15,9 +15,6 @@ private:
 
     void loadImgTexture(const std::string& path1, const std::string& path2);
     void setBackground(unsigned int screenWidth, unsigned int screenHeight);
-    bool checkUserInput(sf::RenderWindow& window, const sf::Event& event);
-    bool showExitConfirmation(sf::RenderWindow& window);
-
 
 
     std::unique_ptr<sf::Texture> transitionTexture;

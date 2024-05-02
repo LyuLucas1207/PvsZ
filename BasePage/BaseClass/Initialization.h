@@ -34,6 +34,10 @@ protected:
 
     unsigned int windowWidth;
     unsigned int windowHeight;
+
+    //UserInput
+    bool showExitConfirmation(sf::RenderWindow& window);
+    bool checkUserInput(sf::RenderWindow& window, const sf::Event& event);
 };
 
 
