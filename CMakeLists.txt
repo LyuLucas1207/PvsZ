@@ -5,27 +5,27 @@ set(CMAKE_CXX_STANDARD 20)
 
 # 可执行文件和源文件
 add_executable(PvsZ src/main.cpp
-        BasePage/Loading.cpp
-        plants/Plant.cpp
-        zombies/Zombie.cpp
+        Pages/Loading.cpp
+        Plants/Plant.cpp
+        Zombies/Zombie.cpp
         BattlesScenes/Scenes.cpp
-        BasePage/Menu.cpp
-        BasePage/BaseClass/Initialization.cpp
+        Pages/Menu.cpp
+        Pages/UniversalPageFeatures/Initialization.cpp
         src/logic/GameLogic.cpp
-        BasePage/BaseClass/MusicManager.cpp
-        BasePage/BaseClass/MusicManager.h
+        Pages/Managers/MusicManager.cpp
+        Pages/Managers/MusicManager.h
 )
 
 target_include_directories(PvsZ PRIVATE
-        BasePage/includes
-        plants
-        zombies
+        Pages/includes
+        Plants
+        Zombies
         BattlesScenes
-        BasePage/BaseClass
+        Pages/UniversalPageFeatures
         src/logic
 )
 
-include_directories(BasePage/includes)
+include_directories(Pages/includes)
 
 # 包含目录
 include_directories(${PROJECT_SOURCE_DIR}/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include)

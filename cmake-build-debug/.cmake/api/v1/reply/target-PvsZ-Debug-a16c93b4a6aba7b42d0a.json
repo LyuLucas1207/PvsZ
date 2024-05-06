@@ -66,7 +66,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/BasePage/includes"
+					"path" : "D:/CodeProJect/PvsZ/Pages/includes"
 				},
 				{
 					"backtrace" : 3,
@@ -82,7 +82,7 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/BasePage/BaseClass"
+					"path" : "D:/CodeProJect/PvsZ/Pages/UniversalPageFeatures"
 				},
 				{
 					"backtrace" : 3,
@@ -200,7 +200,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BasePage/Loading.cpp",
+			"path" : "Pages/Loading.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -224,13 +224,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BasePage/Menu.cpp",
+			"path" : "Pages/Menu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BasePage/BaseClass/Initialization.cpp",
+			"path" : "Pages/UniversalPageFeatures/Initialization.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -242,12 +242,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BasePage/BaseClass/MusicManager.cpp",
+			"path" : "Pages/Managers/MusicManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "BasePage/BaseClass/MusicManager.h",
+			"path" : "Pages/Managers/MusicManager.h",
 			"sourceGroupIndex" : 1
 		}
 	],

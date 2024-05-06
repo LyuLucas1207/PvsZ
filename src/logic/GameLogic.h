@@ -5,7 +5,7 @@
 #ifndef PVSZ_GAMELOGIC_H
 #define PVSZ_GAMELOGIC_H
 
-#include "../baseclass/MusicManager.h"
+#include "../../Pages/Managers/MusicManager.h"
 #include "Loading.h"
 #include "Menu.h"
 #include <SFML/Graphics.hpp>
@@ -14,7 +14,6 @@ class GameLogic {
 public:
     explicit GameLogic(sf::RenderWindow& window, MusicManager& musicManager);
     ~GameLogic() = default;
-
     void pageSwitch();
 
 private:
