@@ -7,9 +7,9 @@
 
 class Loading: public Initialization {
 public:
-    Loading(const std::string& Bg1_path, const std::string& Bg2_path,const std::string& Music_path,const std::string& Icon_path);
+    Loading(const std::string& Bg1_path, const std::string& Bg2_path,const std::string& Icon_path);
     ~Loading() = default;
-    void gameInit();
+    void gameInit(sf::RenderWindow& window);
 
 private:
 

@@ -12,6 +12,8 @@ add_executable(PvsZ src/main.cpp
         BasePage/Menu.cpp
         BasePage/BaseClass/Initialization.cpp
         src/logic/GameLogic.cpp
+        BasePage/BaseClass/MusicManager.cpp
+        BasePage/BaseClass/MusicManager.h
 )
 
 target_include_directories(PvsZ PRIVATE

@@ -9,9 +9,9 @@
 
 class Menu : public Initialization {
 public:
-    Menu(const std::string& Bg1_path, const std::string& Bg2_path,const std::string& Music_path,const std::string& Icon_path);
+    Menu(const std::string& Bg1_path,const std::string& Icon_path);
     ~Menu() = default;
-    void menuInit();
+    void menuInit(sf::RenderWindow& window);
 
 private:
 

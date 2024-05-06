@@ -7,10 +7,10 @@
 
 Initialization::Initialization() : windowWidth(DEFAULT_WIDTH), windowHeight(DEFAULT_HEIGHT) {}
 
-sf::VideoMode Initialization::getSizeofScreen() {
-    windowWidth = sf::VideoMode::getDesktopMode().width;
-    windowHeight = sf::VideoMode::getDesktopMode().height;
-    return sf::VideoMode::getDesktopMode();
+void Initialization::getSizeofScreen(sf::RenderWindow& window) {
+    windowSize = window.getSize();
+    windowWidth = windowSize.x;
+    windowHeight = windowSize.y;
 }
 
 void Initialization::setWindowSize(unsigned int width, unsigned int height) {
@@ -24,17 +24,6 @@ void Initialization::loadImgTexture(const std::string& path) {
         std::cerr << "Error: Cannot load image texture\n";
         exit(1);
     }
-}
-
-void Initialization::loadMusic(const std::string &path) {
-    music = std::make_unique<sf::Music>();
-    if (!music->openFromFile(path)) {
-        std::cerr << "Error: Cannot load music\n";
-        exit(1);
-    }
-    music->setLoop(true);
-    music->play();
-
 }
 
 void Initialization::loadIcon(const std::string &path) {

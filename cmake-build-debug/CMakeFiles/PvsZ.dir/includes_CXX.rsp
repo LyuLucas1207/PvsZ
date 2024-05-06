@@ -1,1 +1,0 @@
--IC:/CodingProject/C_C++/PvsZ/BasePage/includes -IC:/CodingProject/C_C++/PvsZ/plants -IC:/CodingProject/C_C++/PvsZ/zombies -IC:/CodingProject/C_C++/PvsZ/BattlesScenes -IC:/CodingProject/C_C++/PvsZ/BasePage/BaseClass -IC:/CodingProject/C_C++/PvsZ/src/logic -isystem "C:/CodingProject/C_C++/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include"

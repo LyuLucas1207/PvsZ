@@ -5,9 +5,8 @@
 //loadMusic("../assets/Sound/Begining.mp3");
 //loadIcon("../assets/others/Menu/191.png");
 
-Loading::Loading(const std::string& Bg1_path, const std::string& Bg2_path, const std::string& Music_path, const std::string& Icon_path) {
+Loading::Loading(const std::string& Bg1_path, const std::string& Bg2_path, const std::string& Icon_path) {
     loadImgTexture(Bg1_path, Bg2_path);
-    loadMusic(Music_path);
     loadIcon(Icon_path);
 }
 
@@ -54,17 +53,15 @@ void Loading::setBackground(unsigned int screenWidth, unsigned int screenHeight)
     transition.setPosition(posX, posY);
 }
 
-void Loading::gameInit() {
-    sf::VideoMode desktop = getSizeofScreen();
-    sf::RenderWindow window(desktop, "Plants vs Zombies", sf::Style::Fullscreen);
-    window.setFramerateLimit(60);
-
+void Loading::gameInit(sf::RenderWindow& window) {
+    getSizeofScreen(window);
     setBackground(windowWidth, windowHeight);
     transition.setColor(sf::Color(255, 255, 255, 255)); // 将过渡图片的透明度设置为完全不透明
 
     bool transitionCompleted = false;
     setTop(window.getSystemHandle());
 
+    bool isRunning = true;
     while (window.isOpen()) {
         window.clear(); // 清空窗口
         if (!transitionCompleted) {
@@ -84,8 +81,12 @@ void Loading::gameInit() {
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed || checkUserInput(window, event)) {
-                window.close();
+                isRunning = false;
+                break;
             }
+        }
+        if (!isRunning) {
+            break;
         }
     }
 }

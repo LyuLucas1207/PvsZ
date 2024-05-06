@@ -4,21 +4,41 @@
 
 #include "GameLogic.h"
 
+GameLogic::GameLogic(sf::RenderWindow& window, MusicManager& musicManager)
+        : window(window), musicManager(musicManager) {
+}
+
 void GameLogic::pageSwitch() {
     int PageNumber = 0;
-    while(true){
-        if(PageNumber == 0){//This is loading Page
-            std::string Bg1_path = "../assets/BG/gamingBackground/FirstEnter/titlescreen.jpg";
-            std::string Bg2_path = "../assets/BG/gamingBackground/FirstEnter/Logo.jpg";
-            std::string Music_path = "../assets/Sound/Begining.mp3";
-            std::string Icon_path = "../assets/others/Menu/191.png";
 
-            Loading loading(Bg1_path, Bg2_path, Music_path, Icon_path);
-            loading.gameInit();
-            PageNumber = 1;
-        }else{
-            std::cout << "Next Page" << std::endl;
-            exit(0);
+    Loading loading("../assets/BG/gamingBackground/FirstEnter/titlescreen.jpg",
+                    "../assets/BG/gamingBackground/FirstEnter/Logo.jpg",
+                    "../assets/others/Menu/191.png");
+
+    Menu menu("../assets/BG/gamingBackground/Menu/MainMenu.png",
+              "../assets/others/Menu/191.png");
+
+    while(window.isOpen()){
+        switch (PageNumber) {
+            case 0: // This is loading Page
+                musicManager.playMusic("Beginning");
+                loading.gameInit(window);
+                PageNumber = 1;
+                break;
+            case 1: // This is Menu Page
+                musicManager.playMusic("Menu");
+                menu.menuInit(window);
+                PageNumber = 3;
+                break;
+            case 3: // This is Game Page
+                // Assuming there's a similar setup for game page music
+                musicManager.playMusic("GamePageMusic");
+                loading.gameInit(window); // Assuming you might have a separate class for actual game logic
+                PageNumber = 4;
+                break;
+            default:
+                std::cout << "Next Page" << std::endl;
+                exit(0);
         }
     }
 }
