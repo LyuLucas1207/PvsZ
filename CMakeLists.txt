@@ -14,6 +14,8 @@ add_executable(PvsZ src/main.cpp
         src/logic/GameLogic.cpp
         Pages/Managers/MusicManager.cpp
         Pages/Managers/MusicManager.h
+        Pages/Managers/PictureManager.cpp
+        Pages/Managers/PictureManager.h
 )
 
 target_include_directories(PvsZ PRIVATE

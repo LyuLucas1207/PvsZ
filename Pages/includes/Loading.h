@@ -2,7 +2,7 @@
 #define PVSZ_LOADING_H
 
 #include <iostream>
-#include "../baseclass/Initialization.h"
+#include "../UniversalPageFeatures/Initialization.h"
 
 
 class Loading: public Initialization {

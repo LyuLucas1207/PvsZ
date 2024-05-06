@@ -15,8 +15,10 @@ void GameLogic::pageSwitch() {
                     "../assets/BG/gamingBackground/FirstEnter/Logo.jpg",
                     "../assets/others/Menu/191.png");
 
-    Menu menu("../assets/BG/gamingBackground/Menu/MainMenu.png",
-              "../assets/others/Menu/191.png");
+    PictureManager pictureManager_menu;
+    pictureManager_menu.loadTexture("Menu_BackGround","../assets/BG/gamingBackground/Menu/MainMenu.png");
+    pictureManager_menu.loadTexture("Menu_Icon","../assets/others/Menu/191.png");
+    Menu menu(pictureManager_menu);
 
     while(window.isOpen()){
         switch (PageNumber) {

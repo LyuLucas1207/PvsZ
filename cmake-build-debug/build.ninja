@@ -52,63 +52,70 @@ build cmake_object_order_depends_target_PvsZ: phony || CMakeFiles/PvsZ.dir
 build CMakeFiles/PvsZ.dir/src/main.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/src/main.cpp || cmake_object_order_depends_target_PvsZ
   DEP_FILE = CMakeFiles\PvsZ.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\src
 
 build CMakeFiles/PvsZ.dir/Pages/Loading.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/Pages/Loading.cpp || cmake_object_order_depends_target_PvsZ
   DEP_FILE = CMakeFiles\PvsZ.dir\Pages\Loading.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\Pages
 
-build CMakeFiles/PvsZ.dir/plants/Plant.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/plants/Plant.cpp || cmake_object_order_depends_target_PvsZ
-  DEP_FILE = CMakeFiles\PvsZ.dir\plants\Plant.cpp.obj.d
+build CMakeFiles/PvsZ.dir/Plants/Plant.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/Plants/Plant.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\Plants\Plant.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
-  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\plants
+  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\Plants
 
-build CMakeFiles/PvsZ.dir/zombies/Zombie.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/zombies/Zombie.cpp || cmake_object_order_depends_target_PvsZ
-  DEP_FILE = CMakeFiles\PvsZ.dir\zombies\Zombie.cpp.obj.d
+build CMakeFiles/PvsZ.dir/Zombies/Zombie.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/Zombies/Zombie.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\Zombies\Zombie.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
-  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\zombies
+  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\Zombies
 
 build CMakeFiles/PvsZ.dir/BattlesScenes/Scenes.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/BattlesScenes/Scenes.cpp || cmake_object_order_depends_target_PvsZ
   DEP_FILE = CMakeFiles\PvsZ.dir\BattlesScenes\Scenes.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\BattlesScenes
 
 build CMakeFiles/PvsZ.dir/Pages/Menu.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/Pages/Menu.cpp || cmake_object_order_depends_target_PvsZ
   DEP_FILE = CMakeFiles\PvsZ.dir\Pages\Menu.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\Pages
 
 build CMakeFiles/PvsZ.dir/Pages/UniversalPageFeatures/Initialization.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/Pages/UniversalPageFeatures/Initialization.cpp || cmake_object_order_depends_target_PvsZ
   DEP_FILE = CMakeFiles\PvsZ.dir\Pages\UniversalPageFeatures\Initialization.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\Pages\UniversalPageFeatures
 
 build CMakeFiles/PvsZ.dir/src/logic/GameLogic.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/src/logic/GameLogic.cpp || cmake_object_order_depends_target_PvsZ
   DEP_FILE = CMakeFiles\PvsZ.dir\src\logic\GameLogic.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\src\logic
 
 build CMakeFiles/PvsZ.dir/Pages/Managers/MusicManager.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/Pages/Managers/MusicManager.cpp || cmake_object_order_depends_target_PvsZ
   DEP_FILE = CMakeFiles\PvsZ.dir\Pages\Managers\MusicManager.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/plants -ID:/CodeProJect/PvsZ/zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
+  OBJECT_DIR = CMakeFiles\PvsZ.dir
+  OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\Pages\Managers
+
+build CMakeFiles/PvsZ.dir/Pages/Managers/PictureManager.cpp.obj: CXX_COMPILER__PvsZ_unscanned_Debug D$:/CodeProJect/PvsZ/Pages/Managers/PictureManager.cpp || cmake_object_order_depends_target_PvsZ
+  DEP_FILE = CMakeFiles\PvsZ.dir\Pages\Managers\PictureManager.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/CodeProJect/PvsZ/Pages/includes -ID:/CodeProJect/PvsZ/Plants -ID:/CodeProJect/PvsZ/Zombies -ID:/CodeProJect/PvsZ/BattlesScenes -ID:/CodeProJect/PvsZ/Pages/UniversalPageFeatures -ID:/CodeProJect/PvsZ/src/logic -isystem D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include
   OBJECT_DIR = CMakeFiles\PvsZ.dir
   OBJECT_FILE_DIR = CMakeFiles\PvsZ.dir\Pages\Managers
 
@@ -120,7 +127,7 @@ build CMakeFiles/PvsZ.dir/Pages/Managers/MusicManager.cpp.obj: CXX_COMPILER__Pvs
 #############################################
 # Link the executable PvsZ.exe
 
-build PvsZ.exe: CXX_EXECUTABLE_LINKER__PvsZ_Debug CMakeFiles/PvsZ.dir/src/main.cpp.obj CMakeFiles/PvsZ.dir/Pages/Loading.cpp.obj CMakeFiles/PvsZ.dir/plants/Plant.cpp.obj CMakeFiles/PvsZ.dir/zombies/Zombie.cpp.obj CMakeFiles/PvsZ.dir/BattlesScenes/Scenes.cpp.obj CMakeFiles/PvsZ.dir/Pages/Menu.cpp.obj CMakeFiles/PvsZ.dir/Pages/UniversalPageFeatures/Initialization.cpp.obj CMakeFiles/PvsZ.dir/src/logic/GameLogic.cpp.obj CMakeFiles/PvsZ.dir/Pages/Managers/MusicManager.cpp.obj | D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-graphics-d.a D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-window-d.a D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-audio-d.a D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-system-d.a
+build PvsZ.exe: CXX_EXECUTABLE_LINKER__PvsZ_Debug CMakeFiles/PvsZ.dir/src/main.cpp.obj CMakeFiles/PvsZ.dir/Pages/Loading.cpp.obj CMakeFiles/PvsZ.dir/Plants/Plant.cpp.obj CMakeFiles/PvsZ.dir/Zombies/Zombie.cpp.obj CMakeFiles/PvsZ.dir/BattlesScenes/Scenes.cpp.obj CMakeFiles/PvsZ.dir/Pages/Menu.cpp.obj CMakeFiles/PvsZ.dir/Pages/UniversalPageFeatures/Initialization.cpp.obj CMakeFiles/PvsZ.dir/src/logic/GameLogic.cpp.obj CMakeFiles/PvsZ.dir/Pages/Managers/MusicManager.cpp.obj CMakeFiles/PvsZ.dir/Pages/Managers/PictureManager.cpp.obj | D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-graphics-d.a D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-window-d.a D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-audio-d.a D$:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-system-d.a
   FLAGS = -g
   LINK_LIBRARIES = D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-graphics-d.a  D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-window-d.a  D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-audio-d.a  D:/CodeProJect/PvsZ/extern-lib/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PvsZ.dir

@@ -36,19 +36,19 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 42,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 19,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 31,
+				"line" : 33,
 				"parent" : 0
 			}
 		]
@@ -70,11 +70,11 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/plants"
+					"path" : "D:/CodeProJect/PvsZ/Plants"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/CodeProJect/PvsZ/zombies"
+					"path" : "D:/CodeProJect/PvsZ/Zombies"
 				},
 				{
 					"backtrace" : 3,
@@ -113,7 +113,8 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				10
 			]
 		}
 	],
@@ -178,14 +179,16 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				10
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				9
+				9,
+				11
 			]
 		}
 	],
@@ -206,13 +209,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "plants/Plant.cpp",
+			"path" : "Plants/Plant.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "zombies/Zombie.cpp",
+			"path" : "Zombies/Zombie.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -248,6 +251,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "Pages/Managers/MusicManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Pages/Managers/PictureManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Pages/Managers/PictureManager.h",
 			"sourceGroupIndex" : 1
 		}
 	],

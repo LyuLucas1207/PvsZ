@@ -4,14 +4,18 @@
 
 #include "Menu.h"
 
-Menu::Menu(const std::string& Bg1_path, const std::string& Icon_path) {
-    loadImgTexture(Bg1_path);
-    loadIcon(Icon_path);
-}
+//Menu::Menu(PictureManager& pictureManager) {
+//    loadImgTexture(Bg1_path);
+//    loadIcon(Icon_path);
+//}
+Menu::Menu(PictureManager& pictureManager) : pictureManager(pictureManager) {
+    loadImgTexture(pictureManager.getTexture("Menu_BackGround"));
+    loadIcon(pictureManager.getTexture("Menu_Icon"));
 
+}
 void Menu::menuInit(sf::RenderWindow& window){
     getSizeofScreen(window);
-    setBackground(windowWidth, windowHeight);
+    setBackground(windowWidth, windowHeight,false);
     setTop(window.getSystemHandle());
 
     bool isRunning = true;

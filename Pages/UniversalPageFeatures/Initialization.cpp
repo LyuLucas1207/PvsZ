@@ -27,28 +27,29 @@ void Initialization::loadImgTexture(const std::string& path) {
 }
 
 void Initialization::loadIcon(const std::string &path) {
-    sf::Image icon;
-    if (!icon.loadFromFile(path)) {
+    icon = std::make_unique<sf::Texture>();
+    if (!icon->loadFromFile(path)) {
         std::cerr << "Error: Cannot load icon\n";
         exit(1);
     }
-    sf::Vector2u iconSize = icon.getSize();
+    sf::Vector2u iconSize = icon->getSize();
     sf::RenderWindow window(sf::VideoMode(iconSize.x, iconSize.y), "Icon");
-    window.setIcon(iconSize.x, iconSize.y, icon.getPixelsPtr());
+    window.setIcon(iconSize.x, iconSize.y, icon->copyToImage().getPixelsPtr());
 }
 
 //sf::Vector2u bg_img: size of the background image, you can get it by calling backgroundTexture->getSize()
 void Initialization::setBackground(unsigned int screenWidth, unsigned int screenHeight,bool IsStretch) {
     background.setTexture(*backgroundTexture);
     sf::Vector2u bg_img = backgroundTexture->getSize();
+    float scaleX = static_cast<float>(screenWidth) / bg_img.x;
+    float scaleY = static_cast<float>(screenHeight) / bg_img.y;
     if (IsStretch) {
-        float scaleX = static_cast<float>(screenWidth) / bg_img.x;
-        float scaleY = static_cast<float>(screenHeight) / bg_img.y;
-        float scale = std::min(scaleX, scaleY);
+        float scale = std::max(scaleX, scaleY);
         background.setScale(scale, scale);
     }
     else {
-        background.setScale(1, 1);
+        float scale = std::min(scaleX, scaleY);
+        background.setScale(scale, scale);
     }
 
     float spriteWidth = bg_img.x * background.getScale().x;

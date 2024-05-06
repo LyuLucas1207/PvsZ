@@ -24,6 +24,7 @@ protected:
     bool checkUserInput(sf::RenderWindow& window, const sf::Event& event);
 
     std::unique_ptr<sf::Texture> backgroundTexture;
+    std::unique_ptr<sf::Texture> icon;
     sf::Sprite background;
     sf::Vector2u windowSize;
     unsigned int windowWidth;

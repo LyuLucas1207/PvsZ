@@ -5,16 +5,17 @@
 #ifndef PVSZ_MENU_H
 #define PVSZ_MENU_H
 
-#include "../baseclass/Initialization.h"
+#include "../UniversalPageFeatures/Initialization.h"
+#include "../Managers/PictureManager.h"
 
 class Menu : public Initialization {
 public:
-    Menu(const std::string& Bg1_path,const std::string& Icon_path);
+    Menu(PictureManager& pictureManager);
     ~Menu() = default;
     void menuInit(sf::RenderWindow& window);
 
 private:
-
+    PictureManager& pictureManager;
 };
 
 
